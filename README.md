@@ -41,3 +41,10 @@ Datapanel connects authorized market data with CPU/GPU compute for quantitative 
 Start with the live documentation and examples, inspect your actual datasets and account resources, review code and a resource quote, then approve the budget before submitting a task. Retrieve your own results and compare models using appropriate chronological validation, execution assumptions and costs. Available resources and dataset coverage are determined by the live catalog and account APIs.
 
 Raw historical market-data downloads are not offered. Keep credentials out of prompts, source code and feedback reports. The workbench's bottom-right **Report a problem** button lets signed-in users submit feedback.
+
+## 完整教程与 AI 接入
+
+- [用户文档与训练教程](docs/README.md)
+- [AI 接入文档](docs/ai/README.md)
+- [研究 Skill](skills/datapanel-research/SKILL.md) · [SDK 工作流 Skill](skills/datapanel-workflows/SKILL.md)
+- [配套 SDK 与可运行示例](sdk/README.zh-CN.md)
