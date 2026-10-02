@@ -269,7 +269,7 @@ for path in ["/v1/me", "/v1/catalog", "/v1/compute/profiles"]:
 
 [免费体验 / 查看账户](https://datapanel.dev/account?lang=zh)
 
-推广期资源上限：体验 1 个任务 / 1 张 GPU；教育 4 / 1；标准 8 / 2；专业 16 / 3；企业及无限 16 / 4。任务数含 CPU 与 GPU，GPU 数是其中的资源上限，不能相加。实际执行受已授权规格、共享容量和 Slurm 排队约束。
+任务并发与 GPU 额度取决于当前套餐、账户权限及可用容量。报价前读取实时账户与能力响应；CPU 和 GPU 任务共同受账户任务数上限约束。
 
 ## 量化算力服务
 

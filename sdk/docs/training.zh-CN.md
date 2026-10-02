@@ -83,7 +83,7 @@ python examples/training/cpu_model.py --mode live \
 
 已获当前任务执行授权时无需重复询问。`--max-credits` 是本次任务报价上限，不是账户全部可用积分。平台按实际资源分配结算；排队与完成状态不能代替最终账单。现有授权不意味着可以无限重试或扩大训练规模。
 
-平台启动 Python 时提供 `DP_INPUT_DIR` / `DP_OUTPUT_DIR`，唯一结果文件为 `result.json`。源码不安装包、不访问网络、不依赖 SSH 或宿主路径。平台负责 Slurm 调度与隔离。
+平台启动 Python 时提供 `DP_INPUT_DIR` / `DP_OUTPUT_DIR`，唯一结果文件为 `result.json`。源码不安装包、不访问网络、只使用文档约定的输入输出目录。平台负责排队执行。
 
 ## 恢复和模型下载
 

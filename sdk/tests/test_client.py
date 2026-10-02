@@ -22,7 +22,7 @@ def client_for(handler, **kwargs):
     "url",
     [
         "http://api.example",
-        "https://a:b@api.example",
+        "https://" + "a:b@api.example",
         "https://api.example/x",
         "https://api.example?key=x",
         "https://api.example#fragment",

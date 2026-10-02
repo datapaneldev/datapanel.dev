@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+work/
+dist/
+build/
+.coverage
+*.part
+*.key
+*.pem
+.codex/config.toml

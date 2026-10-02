@@ -269,7 +269,7 @@ See your account for payment options and entitlements.
 
 [Free trial / account](https://datapanel.dev/account?lang=en)
 
-Promotion limits: trial 1 task / 1 GPU; education 4 / 1; standard 8 / 2; professional 16 / 3; enterprise and unlimited 16 / 4. Task counts include CPU and GPU jobs; GPU limits are included, not additional. Execution depends on authorized profiles, shared capacity and Slurm queueing.
+Task concurrency and GPU limits depend on your current plan, account permissions and available capacity. Read the current account and capability responses before quoting; CPU and GPU jobs share the account task limit.
 
 ## Quantitative computing
 

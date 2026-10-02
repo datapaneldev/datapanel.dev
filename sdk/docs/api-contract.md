@@ -89,3 +89,7 @@ Field names differ intentionally: `profile/max_wall_seconds` in a quote; `resour
 - `CANCEL_REQUESTED` is intermediate. Confirm the subsequent status independently.
 - `execution_enabled=false` or `execution_open=false` is a real capability boundary. Do not use another endpoint or infrastructure path to bypass it.
 - API fields describing success do not establish strategy validity, fill fidelity or OOS performance.
+
+## Sessions and result safety
+
+See [Sessions, jobs and safe result retrieval](security-and-sessions.md) for account-key scope, seven-day session-training defaults, namespace-specific polling, uncertain submissions, export limits and safe handling of downloaded files.

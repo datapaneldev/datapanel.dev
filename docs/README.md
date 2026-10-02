@@ -12,3 +12,5 @@
 - [故障排查](../sdk/docs/troubleshooting.md)
 
 教程中的命令从 sdk 目录执行。默认模拟模式不消费积分；真实任务请按教程设置自己的环境凭据并明确资源预算。可用数据和额度以实时 API 为准。
+
+- [Session、任务与安全下载 / Sessions and safe downloads](../sdk/docs/security-and-sessions.md)

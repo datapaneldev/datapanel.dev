@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">DataPanel Agent Cookbook</title>
+  <desc id="desc">From intent to verified artifacts. Twelve workflows, one public API, built for Codex.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081323"/><stop offset="1" stop-color="#102941"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#4de3c1"/><stop offset="1" stop-color="#74baff"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#82b7dc" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1280" height="440" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="440" rx="20" fill="url(#grid)"/>
+  <circle cx="1180" cy="70" r="245" fill="#32cba5" opacity=".035"/>
+  <circle cx="1180" cy="70" r="170" fill="none" stroke="#5ee8c6" stroke-opacity=".12"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="60" y="51" width="208" height="29" rx="14.5" fill="#4de3c1" fill-opacity=".12" stroke="#4de3c1" stroke-opacity=".3"/>
+    <circle cx="77" cy="66" r="4" fill="#4de3c1"/>
+    <text x="90" y="71" font-size="12" font-weight="600" letter-spacing="1.4" fill="#83efd6">BUILT FOR CODEX</text>
+    <text x="59" y="150" font-size="56" font-weight="750" letter-spacing="-2" fill="#f2f7fd">DataPanel</text>
+    <text x="59" y="213" font-size="56" font-weight="750" letter-spacing="-2" fill="url(#accent)">Agent Cookbook</text>
+    <text x="62" y="257" font-size="21" fill="#aebfd0">From intent to verified artifacts.</text>
+    <text x="62" y="292" font-size="15" fill="#829eb5">Discover data. Inspect budgets. Verify every handoff.</text>
+    <path d="M62 330H678" stroke="#afcde2" stroke-opacity=".14"/>
+    <text x="62" y="365" font-size="14" fill="#d8e7f4" font-weight="600">12 WORKFLOWS</text>
+    <text x="246" y="365" font-size="14" fill="#d8e7f4" font-weight="600">STDIO MCP</text>
+    <text x="402" y="365" font-size="14" fill="#d8e7f4" font-weight="600">OFFLINE FIRST</text>
+    <text x="62" y="403" font-size="12" fill="#668ba7">PYTHON  ·  REPRODUCIBLE EXAMPLES  ·  EXPLICIT EVIDENCE</text>
+    <g transform="translate(810,94)">
+      <rect width="395" height="260" rx="16" fill="#071422" stroke="#38576e"/>
+      <path d="M0 39H395" stroke="#38576e"/>
+      <circle cx="21" cy="20" r="4" fill="#668096"/><circle cx="37" cy="20" r="4" fill="#668096"/><circle cx="53" cy="20" r="4" fill="#668096"/>
+      <text x="275" y="25" font-size="11" fill="#7095af">WORKFLOW  /  04</text>
+      <text x="24" y="75" font-size="13" fill="#7e9eb8" font-family="Consolas,monospace">$ datapanel-demo snapshot</text>
+      <g font-size="14" fill="#c2d4e2">
+        <text x="26" y="112" fill="#4de3c1">01</text><text x="62" y="112">Discover a partition</text>
+        <text x="26" y="143" fill="#4de3c1">02</text><text x="62" y="143">Persist request identity</text>
+        <text x="26" y="174" fill="#4de3c1">03</text><text x="62" y="174">Download + verify SHA256</text>
+      </g>
+      <rect x="24" y="198" width="347" height="38" rx="7" fill="#4de3c1" fill-opacity=".08"/>
+      <path d="M38 217l5 5 9-11" stroke="#4de3c1" stroke-width="2" fill="none"/>
+      <text x="64" y="222" font-size="13" fill="#86eed5">verified</text>
+      <text x="252" y="222" font-size="11" fill="#6f9baa">SYNTHETIC DEMO</text>
+    </g>
+  </g>
+</svg>
