@@ -1,0 +1,8 @@
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+.venv/
+work/
+runtime/
