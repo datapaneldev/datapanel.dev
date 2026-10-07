@@ -53,7 +53,7 @@ python examples/training/prepare_gpu_template.py --validate work/gpu-template-fi
 
 拒绝未知字段、重复 JSON 键、代码、路径或回调参数。最大行数与最大列数不意味着能同时满足 2 MiB 限制。输入大小超限时缩小明确的数据选择，不能静默裁剪。
 
-固定网络为 Linear/ReLU 隐藏层及线性输出，使用 Adam 和 MSE；后 20% 仅是 validation，**没有独立 OOS、预测 NPY 或双回测验收**。计划输出 `model.json` 使用 `datapanel-mlp-json-v1` 格式，包含网络权重与标准化参数；这不是已有 CPU 线性模型格式，不应交给旧的 CPU 模型验证器。实际任务结果从专用任务状态查询，随后通过私有产物接口取回；报价本身不会产生模型。
+固定网络为 Linear/ReLU 隐藏层及线性输出，使用 Adam 和 MSE；后 20% 仅是 validation，**不提供独立样本外投资评估、预测 NPY 文件或双引擎回测结果**。计划输出 `model.json` 使用 `datapanel-mlp-json-v1` 格式，包含网络权重与标准化参数；这不是已有 CPU 线性模型格式，不应交给旧的 CPU 模型验证器。实际任务结果从专用任务状态查询，随后通过私有产物接口取回；报价本身不会产生模型。
 
 
 ## 上传并获取报价

@@ -295,7 +295,7 @@ The underlying C++ engine implements tick-event replay and latency-aware matchin
 
 Combine time-based splits, out-of-sample evaluation, prediction-availability checks and data versioning to reduce simulation error, overfitting and look-ahead risk. Engine agreement does not establish strategy validity or guarantee live returns.
 
-Multi-input integration and accounting consistency have been checked on synthetic minute data. Real-tick execution fidelity and dual-engine parity require separate acceptance.
+Check data granularity, execution assumptions, latency and costs when choosing a backtest method. Minute-bar examples do not replace tick replay or comparisons between engines.
 
 ### Prediction-file format
 
