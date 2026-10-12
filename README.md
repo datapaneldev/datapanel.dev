@@ -48,3 +48,5 @@ Raw historical market-data downloads are not offered. Keep credentials out of pr
 - [AI 接入文档](docs/ai/README.md)
 - [研究 Skill](skills/datapanel-research/SKILL.md) · [SDK 工作流 Skill](skills/datapanel-workflows/SKILL.md)
 - [配套 SDK 与可运行示例](sdk/README.zh-CN.md)
+
+- [多轮 AI 对话与加密新闻分析案例](docs/ai-conversations.zh-CN.md)
